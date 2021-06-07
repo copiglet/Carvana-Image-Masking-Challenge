@@ -6,6 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/57089832/121049934-23690e80-c7f3-11eb-9297-0919d189ad36.png)
 
+_____________________________________________________________________________________________________________________
 ### 2) VGG19
 
 ![image](https://user-images.githubusercontent.com/57089832/121045768-ccfad080-c7f0-11eb-9d16-25433c01e407.png)
@@ -14,24 +15,26 @@ VGG-19는 우리가 조사한 첫 번째 모델이며 검토 한 모델 중 가�
 
 #### VGG19 accuracy
 
-![image](https://user-images.githubusercontent.com/57089832/121053933-d424dd00-c7f6-11eb-85c3-0c18ca4eb440.png)
-![image](https://user-images.githubusercontent.com/57089832/121054167-0d5d4d00-c7f7-11eb-8acd-c272191ab367.png)
+![image](https://user-images.githubusercontent.com/57089832/121054496-5e6d4100-c7f7-11eb-8d75-664f69076534.png)
+![image](https://user-images.githubusercontent.com/57089832/121054570-7218a780-c7f7-11eb-8bf2-437550ead56f.png)
 
 - accuraccy = 0.9952
 
+______________________________________________________________________________________________________________________
 ### 3) Resnet50
 
 ![image](https://user-images.githubusercontent.com/57089832/121047689-44c8fb00-c7f1-11eb-8b52-9e487cac1368.png)
 
 #### Resnet50 accuracy
 
-![image](https://user-images.githubusercontent.com/57089832/121054496-5e6d4100-c7f7-11eb-8d75-664f69076534.png)
-![image](https://user-images.githubusercontent.com/57089832/121054570-7218a780-c7f7-11eb-8bf2-437550ead56f.png)
+![image](https://user-images.githubusercontent.com/57089832/121053933-d424dd00-c7f6-11eb-85c3-0c18ca4eb440.png)
+![image](https://user-images.githubusercontent.com/57089832/121054167-0d5d4d00-c7f7-11eb-8acd-c272191ab367.png)
 
 - accuraccy = 0.9967
 
 기울기 감소 문제를 해결하기 위해 Resnet 모델이 제안되었습니다. 아이디어는 연결을 건너 뛰고 잔차를 다음 레이어로 전달하여 모델이 계속 학습 할 수 있도록하는 것입니다. Resnet 모델을 사용하면 CNN 모델이 더 깊고 깊어 질 수 있습니다.
 
+_______________________________________________________________________________________________________________________
 ### 4) MobileNetV2
 
 ![image](https://user-images.githubusercontent.com/57089832/121052880-c15dd880-c7f5-11eb-943e-10d9777a54aa.png)
