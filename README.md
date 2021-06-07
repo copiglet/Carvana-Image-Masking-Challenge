@@ -2,6 +2,10 @@
 
 # Carvana-Image-Masking-Challenge
 
+### VGG19 vs Resnet50 vs MobileNetV2
+
+![image](https://user-images.githubusercontent.com/57089832/121049934-23690e80-c7f3-11eb-9297-0919d189ad36.png)
+
 ### VGG19
 
 ![image](https://user-images.githubusercontent.com/57089832/121045768-ccfad080-c7f0-11eb-9d16-25433c01e407.png)
@@ -18,10 +22,12 @@ VGG-19는 우리가 조사한 첫 번째 모델이며 검토 한 모델 중 가�
 
 ### MobileNetV2
 
+![image](https://user-images.githubusercontent.com/57089832/121052880-c15dd880-c7f5-11eb-943e-10d9777a54aa.png)
 
-### VGG19 vs Resnet50 vs MobileNetV2
+모든 convolution을 MobileNet의 depthwise separable convolution으로 대체하였고, 연산량과 파라미터량을 줄이기 위해 전체적으로 convolution의 channel수를 줄이고, block의 내부에서만 channel수를 증가시켰습니다. 기존의 ReLU대신 ReLU6를 사용하였습니다.
 
-![image](https://user-images.githubusercontent.com/57089832/121049934-23690e80-c7f3-11eb-9297-0919d189ad36.png)
+
+
 
 
 
