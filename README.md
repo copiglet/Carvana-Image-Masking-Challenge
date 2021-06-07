@@ -25,6 +25,8 @@ ________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/57089832/121047689-44c8fb00-c7f1-11eb-8b52-9e487cac1368.png)
 
+기울기 감소 문제를 해결하기 위해 Resnet 모델이 제안되었습니다. 아이디어는 연결을 건너 뛰고 잔차를 다음 레이어로 전달하여 모델이 계속 학습 할 수 있도록하는 것입니다. Resnet 모델을 사용하면 CNN 모델이 더 깊고 깊어 질 수 있습니다.
+
 #### Resnet50 accuracy
 
 ![image](https://user-images.githubusercontent.com/57089832/121053933-d424dd00-c7f6-11eb-85c3-0c18ca4eb440.png)
@@ -32,12 +34,14 @@ ________________________________________________________________________________
 
 - accuraccy = 0.9967
 
-기울기 감소 문제를 해결하기 위해 Resnet 모델이 제안되었습니다. 아이디어는 연결을 건너 뛰고 잔차를 다음 레이어로 전달하여 모델이 계속 학습 할 수 있도록하는 것입니다. Resnet 모델을 사용하면 CNN 모델이 더 깊고 깊어 질 수 있습니다.
+
 
 _______________________________________________________________________________________________________________________
 ### 4) MobileNetV2
 
 ![image](https://user-images.githubusercontent.com/57089832/121052880-c15dd880-c7f5-11eb-943e-10d9777a54aa.png)
+
+모든 convolution을 MobileNet의 depthwise separable convolution으로 대체하였고, 연산량과 파라미터량을 줄이기 위해 전체적으로 convolution의 channel수를 줄이고, block의 내부에서만 channel수를 증가시켰습니다. 기존의 ReLU대신 ReLU6를 사용하였습니다.
 
 #### MobileNetV2 accuracy
 
@@ -46,7 +50,7 @@ ________________________________________________________________________________
 
 - accuraccy = 0.9926
 
-모든 convolution을 MobileNet의 depthwise separable convolution으로 대체하였고, 연산량과 파라미터량을 줄이기 위해 전체적으로 convolution의 channel수를 줄이고, block의 내부에서만 channel수를 증가시켰습니다. 기존의 ReLU대신 ReLU6를 사용하였습니다.
+
 
 
 
