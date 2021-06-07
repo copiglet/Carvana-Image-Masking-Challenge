@@ -21,7 +21,7 @@ VGG-19는 우리가 조사한 첫 번째 모델이며 검토 한 모델 중 가�
 
 ### VGG19 vs Resnet50 vs MobileNetV2
 
-![image](https://user-images.githubusercontent.com/57089832/121048756-0bdd5600-c7f2-11eb-8a6a-be251d9d2afb.png)
+![image](https://user-images.githubusercontent.com/57089832/121049934-23690e80-c7f3-11eb-9297-0919d189ad36.png)
 
 
 
