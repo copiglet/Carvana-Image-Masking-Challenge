@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/57089832/121045768-ccfad080-c7f0-11eb-9d16-25433c01e407.png)
 
-VGG-19는 제가 조사한 첫 번째 모델이며, VGG-19는 VGG-16 모델을 개선 한 것이고, 19 개의 레이어를 가진 컨볼 루션 신경망 모델입니다. 컨볼 루션을 함께 쌓아서 만들지만 기울기 감소라는 문제로 인해 모델의 깊이가 제한됩니다. 이 문제는 심층 컨볼 루션 네트워크를 훈련하기 어렵게 만듭니다.
+VGG-19는 VGG-16 모델을 개선 한 것이고, 19 개의 레이어를 가진 컨볼루션 신경망 모델입니다. 컨볼루션을 함께 쌓아서 만들지만 기울기 감소라는 문제로 인해 모델의 깊이가 제한됩니다. 이 문제는 심층 컨볼루션 네트워크를 훈련하기 어렵게 만듭니다.
 
 #### VGG19 accuracy
 
@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/57089832/121052880-c15dd880-c7f5-11eb-943e-10d9777a54aa.png)
 
-모든 convolution을 MobileNet의 depthwise separable convolution으로 대체하였고, 연산량과 파라미터량을 줄이기 위해 전체적으로 convolution의 channel수를 줄이고, block의 내부에서만 channel수를 증가시켰습니다. 기존의 ReLU대신 ReLU6를 사용하였습니다.
+MobileNetV2는 대표적인 경량화 네트워크인 MobileNetV1의 높은 버전으로써 모든 convolution을 MobileNet의 depthwise separable convolution으로 대체되였고, 연산량과 파라미터량을 줄이기 위해 전체적으로 convolution의 channel수를 줄이고, block의 내부에서만 channel수를 증가시켰습니다. 그리고 출력함수를 기존의 ReLU대신 ReLU6를 사용하였습니다.
 
 #### MobileNetV2 accuracy
 
